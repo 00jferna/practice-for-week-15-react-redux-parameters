@@ -7,7 +7,6 @@ const SingleArticle = () => {
   const articles = useSelector((state) => state.articleState.entries);
 
   const singleArticle = articles.find((article) => article.id === id);
-  console.log(singleArticle);
 
   return (
     <div className="singleArticle">
